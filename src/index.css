@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+body {
+    color: #000;
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-weight: 400;
+    @apply bg-unselected
+}
